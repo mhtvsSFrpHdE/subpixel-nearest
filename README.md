@@ -9,3 +9,10 @@ There is also font rendering solution utilize LCD subpixel like `Microsoft Clear
 Some people report this effect doesn't work on non HiDpi displays.  
 Generally, why the upscaling method will work and suitable for some people like me,  
 the principleis still pretty unknown.
+
+## Install
+Put to Magpie `effects` folder like `effects\Phosphor.hlsl`.
+
+## Usage
+`colorBoost` make image brighter while apply scanline.  
+Set to 1.0 to disable color boost, but you need to give your monitor more brightness manually.
