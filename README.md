@@ -24,7 +24,7 @@ Put to Magpie `effects` folder like `effects\Phosphor.hlsl`.
 
 ## Usage
 - `Phosphor.hlsl` is the best choice, but you need to give your monitor more brightness manually.
-- `Phosphor_All.hlsl` add color boost switch, which allows brighter image without raise monitor brightness.
+- `Phosphor_All.hlsl` add color boost switch, which allows brighter image without raise monitor brightness.  
  But in some case it distorts color of the image.
 
 ### Phosphor_All
