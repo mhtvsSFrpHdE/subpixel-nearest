@@ -1,6 +1,7 @@
 // Subpixel nearest
 // Based on CRT-Hyllian Magpie port as upstream
 // https://github.com/Blinue/Magpie/blob/dev/src/Effects/CRT/CRT_Hyllian.hlsl
+// Original author Blinue at https://github.com/Blinue/Magpie/issues/733#issuecomment-1764348560
 
 // CRT-Hyllian
 // 移植自 https://github.com/libretro/common-shaders/blob/master/crt/shaders/crt-hyllian.cg
