@@ -34,22 +34,6 @@
 //!MAGPIE EFFECT
 //!VERSION 4
 
-//!PARAMETER
-//!LABEL Enable color boost
-//!DEFAULT 0
-//!MIN 0
-//!MAX 1
-//!STEP 1
-int enableColorBoost;
-
-//!PARAMETER
-//!LABEL Color Boost
-//!DEFAULT 1.17
-//!MIN 1
-//!MAX 2
-//!STEP 0.01
-float colorBoost;
-
 //!TEXTURE
 Texture2D INPUT;
 
@@ -72,5 +56,5 @@ float4 Pass1(float2 pos) {
         float3(0.7, 1.0, 0.7),
         floor(fmod(pos.x * GetOutputSize().x, 2.0))
     );
-    return float4(INPUT.SampleLevel(sam, pos, 0).rgb * (dotMaskWeights * enableColorBoost * colorBoost), 1);
+    return float4(INPUT.SampleLevel(sam, pos, 0).rgb * dotMaskWeights, 1);
 }
