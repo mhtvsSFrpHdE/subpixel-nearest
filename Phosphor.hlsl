@@ -31,6 +31,9 @@
 
 */
 
+//!MAGPIE EFFECT
+//!VERSION 4
+
 //!PARAMETER
 //!LABEL Enable color boost
 //!DEFAULT 0
@@ -38,9 +41,6 @@
 //!MAX 1
 //!STEP 1
 int enableColorBoost;
-
-//!MAGPIE EFFECT
-//!VERSION 4
 
 //!PARAMETER
 //!LABEL Color Boost
